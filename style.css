@@ -1,27 +1,46 @@
 #quote-container {
+    position: absolute;
     width: 50%;
     height: 250px;
-    border: 1px solid black;
-    margin: 10% auto;
-    border-radius: 2px;
+    left: 25%;
+    border: 1px solid rgba(0, 0, 0, .5);
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 button {
     position: relative;
-    top: 25%;
-    left: 97%;
+    color: #E57373;
+    top: 77px;
+    left: 105%;
     background-color: transparent;
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    border: 1px solid black;  
+    border: 1px solid rgba(0, 0, 0, .5);
+    background-color: #F3F3F3;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
-button:focus { outline: 0; }
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .5);
+}
 
 .fa-repeat {
     font-size: 24px;
     background-color: transparent;
     border: none;
     text-shadow: transparent;
+}
+
+body {
+    background-color: #F44336;
 }
