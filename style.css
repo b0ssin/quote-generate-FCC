@@ -1,9 +1,11 @@
+/* MAIN STYLING */
 body {
     background-color: #F44336;
 }
 
 P {
     position: relative;
+    top: -30px;
     margin-left: 5%;
     font-family: monospace;
     font-size: 1.5em;
@@ -12,7 +14,7 @@ P {
 #quote-container {
     position: absolute;
     width: 50%;
-    height: 250px;
+    height: auto;
     left: 25%;
     border: none;
     margin-top: 10%;
@@ -25,7 +27,7 @@ P {
 button {
     position: relative;
     color: #3F51B5;
-    top: 77px;
+    top: 70px;
     left: 105%;
     width: 48px;
     height: 48px;
